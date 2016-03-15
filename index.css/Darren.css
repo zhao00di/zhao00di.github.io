@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+/*公共样式*/
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none; border:none; background:#FFF;}
+a{text-decoration:none;}
+
+.clear:after{content:"";display:block;clear:both;}
+.clear{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+
+/*样式重置*/
+html,body{background:#1c1c1c; height:100%;}
+body,div,h2,h3,h4,h5,h6,h1,ul,ol,li,a,span,p,strong{margin:0; padding:0; font-family:"微软雅黑";}
+
+#loading{width:100%; height:100%; position:fixed; z-index:99999; background:url(images/loading.gif) no-repeat center #222222; opacity:1;}
+
+/*nav*/
+#nav{width:100%; height:150px; position:relative; color:#777; line-height:160px; overflow:hidden;}
+#nav h2{width:30%; height:100%; float:left; text-align:center; font-size:300%; color:#CFC;}
+#nav ul{width:50%; height:100%; float:right; text-align:center;}
+#nav ul li{width:25%; height:100%; float:left; z-index:2;}
+#nav ul li a{color:#777; display:inline-block; font-size:140%;}
+#nav .nav_active{color:#CFC;}
+/*main*/
+#main{width:100%; height:455px; position:relative;overflow:hidden;}
+#main .pages{height:400%; width:100%; position:absolute; top:0; left:0;}
+
+/*home*/
+#main .pages .home{width:100%; height:75%; float:left; border-top:1px solid #666; position:relative; overflow:hidden;}
+#main .pages .home .home_div{width:20%; height:33%; float:left; position:relative; overflow:hidden; border-bottom:1px solid #666;}
+#main .pages .home .home_div .home_div_bg{width:100%; height:100%; background:#CFC; position:absolute; top:100%; left:0;}
+#main .pages .home .home_div .home_div_con{width:100%; height:100%; position:absolute;top:0; right:0; text-align:right; border-right:1px solid #666; color:#777;}
+#main .pages .home .home_div .cur{color:#303030;}
+#main .pages .home .home_div .home_div_con span{height:47%; line-height:90px; font-size:270%; padding-right:10px; display:inline-block; width:90%;}
+#main .pages .home .home_div .home_div_con span strong{font-size:80%; font-weight:normal;}
+#main .pages .home .home_div .home_div_con p{height:12px; margin-top:4%; font-size:80%; padding-right:10px;}
+#main .pages .home .home_div img{width:100%; height:100%;}
+#main .pages .home .home_div a{width:100%; height:100%; background:url(images/dot.png) no-repeat center center; position:absolute; top:0; left:0;}
+#main .pages .home .home_div a:hover{-webkit-transform:scale(1.1,1.1);}
+
+
+/*work*/
+#main .pages .work{width:100%; height:25%; float:left; position:relative; overflow:hidden;}
+#main .pages .work .work_a{float:left; width:25%; height:33.3%; position:relative; display:inline-block;}
+#main .pages .work .work_a img{height:53%; width:100%; position:absolute; top:0; left:0;}
+#main .pages .work .work_a .work_con{border-right:1px solid #333; height:47%; position:absolute; top:53%; right:0; width:100%;}
+#main .pages .work .work_a .work_con p{padding-right:12px; font-size:60%; margin-top:2%; text-align:right;}
+#main .pages .work .work_a span{background:#CFC; width:100%; height:100%; position:absolute; top:0; left:0; z-index:2; display:inline-block; opacity:0; text-align:center; line-height:166px; font-size:36px; color:#03C;}
+#main .pages .work a{color:#777;}
+
+
+/* time */
+#main .pages .time{width:100%; height:25%; float:left; position:relative; overflow:hidden;}
+#main .pages .time .time_con{position:relative; top:4%; width:52%; height:92%; margin:0 auto; border-radius:10px; border:2px solid #DFDFDF; margin:0 auto; box-shadow:#fff 0px 0px 20px;}
+#main .pages .time .time_con #open{width:160px; height:160px; background:#2F2F2F; box-shadow: #fff 0px 0px 20px; text-align:center; line-height:160px; color:#fff; border-radius:50%; position:absolute; top:16%; left:50%; font-size:200%; margin-left:-80px;}
+#main .pages .time .time_con img{height:40px;}
+#main .pages .time .time_con .colck{height:30%; position:absolute; top:64%; left:50%; margin-left:-190px;}
+	
+	
+	
+/*about*/
+#main .pages .about{width:100%; height:25%; float:left; position:relative; overflow:hidden;}
+#main .pages .about .about_con{width:54%; height:80%; margin:25px auto; color:#D1D1D1; padding-top:60px; text-align:center; position:relative;}
+#main .pages .about .about_con p{width:82%; margin:30px auto; text-indent:3em;}
+#main .pages .about .about_con p span{opacity:0; line-height:36px; font-size:140%; word-spacing:20px; letter-spacing:2px;}
+#main .pages .about .about_con h2{width:100%; height:40px; margin:0 auto; text-align:center; line-height:40px; font-size:200%; position:absolute; top:62%;}
+#main .pages .about .about_con h3{width:100%; height:40px; margin:0 auto; text-align:center; line-height:40px; font-size:200%; position:absolute; top:72%;}
+
+
