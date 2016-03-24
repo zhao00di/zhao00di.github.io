@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://www.chengjiajia.com/work/sou.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>好搜首页</title>
+	<style type="text/css">
+	body,ul,li,h4,h5,img,p,span,strong,a,div,ol,input{margin:0; padding:0; list-style:none;}
+	body{font-family:"微软雅黑",arial,sans-serif; position:relative; height:640px;}
+	html,body{height:100%; overflow:hidden;}
+	a{text-decoration:none;}	
+	img{border:none;}
+	#nav{width:100%; height:30px; position:absolute;}
+	#nav ol{height:100%; position:absolute; top:0; left:0;}
+	#nav ol li{height:100%; line-height:30px; float:left; font-size:13px; margin-left:14px;}
+	#nav ol li a{color:#666666;}
+	#nav ol li a img{width:18px; height:18px; display:inline-block; float:left; margin-top:6px; margin-right:6px;}
+	#nav ol li a span{width:30px; height:18px; background:#393; color:#fff; display:inline-block; text-align:center; line-height:18px;}
+	#nav ul{height:100%; position:absolute; right:0; top:0; color:#CCC;}
+	#nav ul li{height:30px; float:left; font-size:12px; line-height:30px; margin-right:10px;}
+	#nav .denglu{ position:absolute; top:30px; right:50px; font-size:14px; padding:10px; width:160px; height:40px; color:#FC0; background:#FFC; border:1px solid #FF9; display:none;}
+	#nav ul li a{color:#666666; margin-right:8px;}
+	#nav ul li a:hover{ text-decoration:underline;}
+	#nav .day{width:300px; height:300px; position:absolute; top:30px; left:10px; border:1px solid #EDEDED; position:relative; display:none;}
+	#nav .day h4{float:left; color:#666666; font-weight:normal; font-size:13px; width:300px; height:30p; line-height:30px; text-align:right;}
+	#nav .day h4 strong{color:#000; font-weight:normal; position:absolute; left:16px;}
+	#nav .day h4 p{position:absolute; left:80px; color:#666666;}
+	#nav .day h4 span{ position:absolute; left:114px; color:#3F6;}
+	#nav .day h5{ position:absolute; right:16px; height:30px; line-height:30px; color:#666666; font-weight:normal;}
+	#nav .day div{position:absolute; top:60px; right:20px; width:100%; height:100px;}
+	#nav .day div img{width:66px; height:66px; position:absolute; top:0px; left:50px;}
+	#nav .day div span{font-size:20px; line-height:24px; position:absolute; left:200px; top:0px;}
+	#nav .day div p{font-size:13px; color:#666666; line-height:20px; position:absolute; left:200px; top:26px;}
+	#nav .day ul{width:100%; height:50%; position:absolute; top:149px; left:0; border-top:1px solid #EDEDED;}
+	#nav .day ul li{ width:99px; height:100%; float:left; position:relative; margin:0;}
+	#nav .day ul li img{display:inline-block; position:absolute; top:44px; left:50%; margin-left:-20px;}
+	#nav .day ul li span{color:#000; text-align:center; position:absolute; top:20px; width:100%;}
+	#nav .day ul li strong{color:#666666; width:100%; position:absolute; top:84px; font-weight:normal; text-align:center;}
+	#nav .day ul li p{ width:100%; color:#666666; position:absolute; top:106px; text-align:center;}
+	
+	
+	
+	#main{width:100%; height:60%; position:absolute; top:36px; margin:0 auto;}
+	#main .logo .tubiao{position:absolute; left:50%; top:100px; width:240px; height:64px; margin-left:-120px; margin-top:-32px;}
+	#main .logo .con{position:absolute; left:50%; top:370px; width:88px; height:60px; margin-left:-44px; margin-top:-30px;}
+	#main .logo ul{width:700px; height:30px; position:absolute; top:190px; left:50%; margin-left:-320px; font-size:14px; color:#666666;}
+	#main .logo ul li{float:left; width:52px; text-align:center;}
+	#main .logo .text{width:640px; height:46px; position:absolute; top:220px; left:50%; margin-left:-320px; background:red;}
+	#main .logo .text input{width:528px; height:44px; float:left; outline:none; border:none; border:1px solid #999999; padding-left:10px;}
+	#main .logo .text span{width:100px; height:46px; background:#19b955; display:inline-block; color:#fff; text-align:center; line-height:44px; font-size:18px; float:right;}
+	#main .logo .text ol{display:none; position:absolute; left:0; top:45px; width:538px; overflow:hidden; border:1px solid #999999; background:#fff; z-index:2;}
+	#main .logo .text ol li.active,#main .logo .text ol li:hover{ background:#ccc;}
+	#main .logo .text ol li{width:528px; height:30px; line-height:30px; padding-left:10px;}
+
+	#foot{width:100%; height:10%; position:absolute; bottom:0px;}
+	#foot ul{width:800px; height:12px; margin:0 auto; color:#D7D7D7; margin-left:380px; position:absolute; top:20px; left:0;}
+	#foot ul li{float:left; height:12px; margin-right:10px; text-align:center; line-height:12px; font-size:12px;}
+	#foot ul li a{color:#666666; font-size:12px; margin-right:10px;}
+	#foot ol{width:500px; height:12px; line-height:12px; color:#D7D7D7; position:absolute; top:46px; left:50%; font-size:12px; margin-left:-160px;}
+	#foot ol li{float:left; margin-right:10px;}
+	#foot ol li a{color:#666666;}
+	</style>
+</head>
+<body>
+	<div id="nav">
+		<ol>
+			<li><a href="javascript;">上海</a></li>
+			<li><a href="javascript;"><img src="images/1-7.png">小雨4~7°C</a></li>
+			<li><a href="javascript;">空气质量 : <span>良</span></a><img src="images/bottom.png" style="margin-left:6px;"></li>
+		</ol>
+		<ul>
+			<li><a href="javascript;">360导航</a>|</li>
+			<li><a href="javascript;">设为主页</a>|</li>
+			<li><a href="javascript;">设置</a>|</li>
+			<li><a href="javascript;">换肤</a>|</li>
+			<li><a href="javascript;" style="margin-right:0px;" class="login">登陆</a></li>
+			<li><a href="javascript;">注册</a></li>
+		</ul>
+        <p class="denglu">亲，登陆后将同步上从登陆时的状态哟</p>
+        <div class="day">
+        	<h4><strong>1月27日－</strong><p>上海</p><span>切换</span></h4><h5>未来七天天气</h5>
+            <div>
+            	<img src="images/1-7 (1).png">
+                <span>5°C</span>
+                <p>小雨</p>
+                <p style="top:48px;">东风 微风</p>
+            </div>  
+            <ul>
+            	<li>
+	            	<span>明天</span>
+                    <img src="images/1-7.png">
+	            	<strong>小雨</strong>
+	            	<p>6~9°C</p>
+            	</li>
+            	<li>
+	            	<span>后天</span>
+			        <img src="images/1-8.png">
+	            	<strong>中雨</strong>
+	            	<p>5~8°C</p>
+            	</li>
+                <li>
+	            	<span>1月30日</span>
+                    <img src="images/1-7 (2).png">
+	            	<strong>小雨</strong>
+	            	<p>4~5°C</p>
+            	</li>
+            </ul>       
+        </div>
+	</div>
+	<div id="main">
+		<div class="logo">
+        	<img src="images/sou.png" class="tubiao">
+            <ul>
+                <li>新闻</li>
+                <li style="color:#19b955; font-weight:bold;">网页</li>
+                <li>问答</li>
+                <li>视频</li>
+                <li>图片</li>
+                <li>音乐</li>
+                <li>地图</li>
+                <li>良医</li>
+                <li>百科</li>
+                <li style="position:relative;">更多<img src="images/so.png" style="position:absolute; top:10px; right:0; width:7px; height:3px;"></li>
+            </ul>
+            
+            <div class="text">
+                <input type="text" autofocus id="txt">
+                <ol id="ol1" style="display: none;"></ol>
+                <span id="btn">搜一下</span>
+            </div>
+            <img src="images/so2.png" class="con">           
+        </div>
+	</div>
+    <div id="foot">
+    	<ul>
+        	<li><a href="javascript:;">好搜客户端官网</a>|</li>
+            <li><a href="javascript:;">意见反馈</a>|</li>
+            <li><a href="javascript:;">使用帮助</a>|</li>
+            <li><a href="javascript:;">免责声明</a>|</li>
+            <li><a href="javascript:;">站长平台</a>|</li>
+            <li><a href="javascript:;">推广合作</a>|</li>
+            <li><a href="javascript:;">360搜索联盟</a>|</li>
+            <li><a href="javascript:;">联盟品牌认证</a></li>
+        </ul>
+        <ol>
+        	<li><a href="javascript:;">©2016 360.CN</a><a href="javascript:;"></a></li><a href="javascript:;">
+            </a><li><a href="javascript:;"></a><a href="javascript:;">奇虎360旗下搜索服务</a><a href="javascript:;"></a></li><a href="javascript:;">
+            </a><li><a href="javascript:;"></a><a href="javascript:;">京ICP备08010314号-19</a><a href="javascript:;"></a></li><a href="javascript:;">
+        </a></ol><a href="javascript:;">
+    </a></div><a href="javascript:;">
+    <script src="index.js/Darren.js"></script>
+    <script>
+		sou();
+	</script>
+
+</a></body></html>

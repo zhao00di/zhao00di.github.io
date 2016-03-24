@@ -94,12 +94,12 @@ window.onload=function(){
 		var str2=year+month+day;
 		var week=['seven','one','two','three','four','five','six'];
 		for(var i=0;i<aImg.length;i++){
-			aImg[i].src='./images/'+str.charAt(i)+'.png';
+			aImg[i].src='./zd/'+str.charAt(i)+'.png';
 		}
 		for(var i=0;i<aImg2.length;i++){
-			aImg2[i].src='./images/'+str2.charAt(i)+'.png';
+			aImg2[i].src='./zd/'+str2.charAt(i)+'.png';
 		}
-		oWeek.src='./images/'+week[w]+'.png';
+		oWeek.src='./zd/'+week[w]+'.png';
 	};
 	
 	var aMus=true;
@@ -1074,7 +1074,7 @@ function circular(){
 	
 	for(var i=0;i<N;i++){
 		var oSpan=document.createElement("span");
-		oSpan.innerHTML='<img src="images/'+(i+1)+'.jpg"/>';
+		oSpan.innerHTML='<img src="zd/'+(i+1)+'.jpg"/>';
 		oDiv.appendChild(oSpan);
 	}
 	 
@@ -1373,7 +1373,7 @@ function mobile(){
 		oImg.onerror=function(){
 			alert('加载图片失败 , 请稍候再试')
 		};
-		oImg.src='images/mi_'+i+'.png';
+		oImg.src='zd/mi_'+i+'.png';
 	}
 	
 	oUl.style.width=aLi[0].offsetWidth*aLi.length+'px';

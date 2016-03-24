@@ -13,7 +13,7 @@ a{text-decoration:none;}
 html,body{background:#1c1c1c; height:100%;}
 body,div,h2,h3,h4,h5,h6,h1,ul,ol,li,a,span,p,strong{margin:0; padding:0; font-family:"微软雅黑";}
 
-#loading{width:100%; height:100%; position:fixed; z-index:99999; background:url(../../../../../../wamp/www/2.myWish/load.gif) no-repeat center #222222; opacity:1;}
+#loading{width:100%; height:100%; position:fixed; z-index:99999; background:url(../img/loading.gif) no-repeat center #222222; opacity:1;}
 
 /*nav*/
 #nav{width:100%; height:150px; position:relative; color:#777; line-height:160px; overflow:hidden;}
@@ -43,7 +43,7 @@ body,div,h2,h3,h4,h5,h6,h1,ul,ol,li,a,span,p,strong{margin:0; padding:0; font-fa
 #main .pages .home .home_div .home_div_con span strong{font-size:80%; font-weight:normal;}
 #main .pages .home .home_div .home_div_con p{height:12px; margin-top:4%; font-size:80%; padding-right:10px;}
 #main .pages .home .home_div img{width:100%; height:100%;}
-#main .pages .home .home_div a{width:100%; height:100%; background:url(../../../../../../wamp/www/2.myWish/dot.png) no-repeat center center; position:absolute; top:0; left:0;}
+#main .pages .home .home_div a{width:100%; height:100%; background:url(../zd/dot.png) no-repeat center center; position:absolute; top:0; left:0;}
 #main .pages .home .home_div a:hover{-webkit-transform:scale(1.1,1.1);}
 #main .pages .home .home_div a:hover{-webkit-transform:scale(1.2,1.2);}
 

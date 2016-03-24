@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://www.chengjiajia.com/work/seamless.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title>无缝滚动</title>
+	<style type="text/css">
+	*{margin:0; padding:0;}
+	a{text-decoration:none;}
+	#div1{width:800px; height:150px; margin:100px auto; position:relative; overflow:hidden;}
+	#div1 ul{width:2000px; height:100%; position:absolute; top:0; left:0;}
+	#div1 ul li{width:200px; height:100%; list-style:none; float:left;}
+	#div1 ul li img{width:100%; height:100%;}
+	#peve{width:100px; height:100px; font-size:60px; font-weight:bold; position:absolute; left:100px; top:100px;}
+	#next{width:60px; height:100px; font-size:60px; font-weight:bold; position:absolute; right:100px; top:100px;}
+
+	</style>
+    
+</head>
+<body>
+	<a href="javascript:;" id="peve">上翻</a>
+
+	<div id="div1">
+		<ul style="width: 2000px; left: -313px;">
+			<li><img src="images/1.jpg"></li>
+			<li><img src="images/2.jpg"></li>
+			<li><img src="images/3.jpg"></li>
+			<li><img src="images/4.jpg"></li>
+			<li><img src="images/5.jpg"></li>
+		
+			<li><img src="images/1.jpg"></li>
+			<li><img src="images/2.jpg"></li>
+			<li><img src="images/3.jpg"></li>
+			<li><img src="images/4.jpg"></li>
+			<li><img src="images/5.jpg"></li>
+		</ul>
+        
+
+	</div>
+    <a href="javascript:;" id="next">下翻</a>
+    <script src="index.js/Darren.js"></script>
+    <script>
+		seamless();
+    </script>
+
+</body></html>
